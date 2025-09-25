@@ -1,0 +1,28 @@
+{
+  "name": "btc-average-cost-calculator",
+  "version": "1.0.0",
+  "description": "Calculate average and median Bitcoin cost from CSV transaction data",
+  "main": "btc-cost-analyzer.js",
+  "bin": {
+    "btc-cost-analyzer": "./btc-cost-analyzer.js"
+  },
+  "scripts": {
+    "start": "node btc-cost-analyzer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "cryptocurrency",
+    "cost-analysis",
+    "csv",
+    "exodus"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
